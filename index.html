@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iza's Little Garden</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sky-glow"></div>
+    <div class="moon"></div>
+
+    <div class="stars" aria-hidden="true"></div>
+
+    <div class="cloud cloud-one"></div>
+    <div class="cloud cloud-two"></div>
+
+    <div class="fireflies" aria-hidden="true"></div>
+<div class="butterflies" aria-hidden="true"></div>
+    <main class="scene">
+        <!-- FIRST SCENE -->
+        <section class="welcome" id="welcome">
+            <div class="glass-card">
+                <div class="tiny-star">✦</div>
+                <h1>I made something for you...</h1>
+                <p>It's a little place, just for you.</p>
+                <p class="soft-line">Come with me?</p>
+
+                <button id="goButton">Let's go <span>→</span></button>
+            </div>
+        </section>
+
+        <!-- GARDEN SCENE -->
+        <section class="garden-screen" id="gardenScreen">
+            <div class="garden-card">
+                <div class="tiny-star">✦</div>
+                <h2>Welcome to your little garden, Iza 🌸</h2>
+                <p>You don't have to be okay all the time.</p>
+                <p>Whatever kind of day you're having,</p>
+                <p>you can stay here for a while.</p>
+
+                <button id="moodButton">How's your mood right now?</button>
+            </div>
+
+            <div class="mood-panel" id="moodPanel">
+                <h3>How's your mood right now?</h3>
+                <div class="mood-buttons">
+                    <button data-mood="good">Good 🌷</button>
+                    <button data-mood="notreally">Not really 🌙</button>
+                    <button data-mood="bad">Bad 🫂</button>
+                    <button data-mood="unknown">I don't know ✨</button>
+                </div>
+
+                <div class="response" id="response"></div>
+<button id="finalButton">One more thing... ✨</button>
+<div class="final-message" id="finalMessage">
+    <div class="tiny-star">✦</div>
+    <h3>Just one little thing...</h3>
+    <p>
+        I don't always know the perfect thing to say,
+        but I genuinely care about how you're doing.
+    </p>
+    <p>
+        You never have to pretend with me.
+        If you want to talk, laugh, complain, or just sit quietly,
+        that's okay too. 🌷 ig i hope u liked it
+    </p>
+    <p class="signature">— Your friend</p>
+</div>
+            </div>
+        </section>
+    </main>
+
+    <div class="meadow" aria-hidden="true">
+        <div class="grass-back"></div>
+        <div class="flowers"></div>
+        <div class="grass-front"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
